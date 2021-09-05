@@ -1,0 +1,22 @@
+//GOOGLE FONTS
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;500;700&family=Roboto:wght@300;500;700&display=swap');
+
+// CUSTOM CSS
+
+//Core variables and mixins 
+@import './base/variables';
+@import './base/mixins';
+
+//Global CSS
+@import './base/page';
+// Components
+@import './components/navbar';
+@import './components/dropdown';
+// main content and header carousel
+@import './layout/header';
+@import './layout/main';
+
+// Media queries
+@import './layout/mediaqueries.scss';
+
+

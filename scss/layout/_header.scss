@@ -1,0 +1,15 @@
+#main-header{
+    img{
+        height: 458px;
+    }
+    .mySwiper{
+        .swiper-button-next,
+            .swiper-button-prev {
+                top: 40%;
+               font-size: .5rem;
+                width: 58px;
+                height: 58px;
+                color: lighten($white, $amount: 15%);
+            }
+    }
+}

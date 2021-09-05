@@ -1,0 +1,52 @@
+// < 768px
+@media screen and (max-width: 768px){
+
+}
+
+//Small (sm) devices (landscape phones, 576px and up)
+
+@media screen and (min-width: 576px) {
+
+}
+
+//Medium (md) devices (tablets, 768px and up)
+@media screen and (min-width: 768px) {
+
+
+}
+
+//Large (lg) devices (desktops, 992px and up)
+@media screen and (min-width: 992px) {
+  #top-navbar {
+    background: $white;
+    padding: 0.5rem;
+    .navbar-brand {
+      padding-left: 1.5rem;
+    }
+    .navbar-nav {
+      background: $white;
+      .nav-item {
+        transition: 5s ease-in-out;
+        border: none;
+        .nav-link {
+          padding: 0 2.6em !important;
+          transition: 0.3s ease-in-out;
+          font-size: 0.8rem;
+          font-weight: 400;
+          color: $black;
+          @include body-font;
+          text-transform: uppercase;
+          padding: 0.9rem;
+          letter-spacing: 0.5px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) { 
+  
+}
+
+//Extra (xl) large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) {}

@@ -1,0 +1,37 @@
+#top-navbar {
+  background: $white;
+  padding: 0;
+  .navbar-toggler {
+    background: $black;
+    color: $white;
+    outline: none;
+    margin-right: 0.1rem;
+  }
+  .navbar-brand {
+    margin: 1rem;
+    // padding: 1.5rem 0;
+    img {
+      width: 12rem;
+    }
+  }
+  .navbar-nav {
+    background: $black;
+    border-left: 1px solid $black;
+    border-right: 1px solid $black;
+    .nav-item {
+      border-bottom: 1px solid $gray-600;
+      transition: 5s ease-in-out;
+      .nav-link {
+        font-size: 0.75rem;
+        font-weight: 400;
+        color: $white;
+        @include body-font;
+        text-transform: uppercase;
+        padding: 0.9rem;
+        padding-right: 1.35rem;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+}
+

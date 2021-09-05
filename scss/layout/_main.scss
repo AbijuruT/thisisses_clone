@@ -1,0 +1,42 @@
+#main-content {
+    // Header title
+  .main__header-title h2 {
+    font-size: 1.125em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 60px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  // Header title middle horizantal line
+  .main__header-title h2::before {
+    content: "";
+    border-top: 1px solid rgba(111, 111, 111, 0.4);
+    margin: 0 15px 0 0;
+    flex: 0 0 100px;
+  }
+  .main__header-title h2::after {
+    content: "";
+    border-top: 1px solid rgba(111, 111, 111, 0.4);
+    margin: 0 0 0 15px;
+    flex: 0 0 100px;
+  }
+  // cards and its content
+.card{
+    border: none;
+    &-body{
+        background: $gray-300;
+    }
+}
+  .card-img-top {
+      border-style: none;
+    display: block;
+    object-fit: cover;
+    &:hover{
+        transform: scale(1.01);
+    }
+  }
+}
