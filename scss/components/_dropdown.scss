@@ -1,0 +1,36 @@
+.dropdown {
+  .dropdown-menu {
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid $gray-400;
+    max-height: 0;
+    visibility: hidden;
+    transition: all 0.6s ease-in-out;
+    overflow: hidden;
+    padding: 0;
+
+    .dropdown-item {
+      text-transform: capitalize;
+      padding: 0.65rem;
+      border-bottom: 1px solid $gray-400;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background: $black;
+        color: $white;
+      }
+    }
+  }
+  &:hover > .dropdown-menu {
+    display: block;
+    max-height: 800px;
+    visibility: visible;
+  }
+}
+
+// Utility class to hide arrow from dropdown
+
+.dropdown.no-arrow {
+  .dropdown-toggle::after {
+    display: none;
+  }
+}
