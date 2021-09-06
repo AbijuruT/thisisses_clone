@@ -17,8 +17,8 @@
   }
   .navbar-nav {
     background: $black;
-    border-left: 1px solid $black;
-    border-right: 1px solid $black;
+    border-left: 1px solid $gray-500;
+    border-right: 1px solid $gray-500;
     .nav-item {
       border-bottom: 1px solid $gray-600;
       transition: 5s ease-in-out;
@@ -32,6 +32,15 @@
         padding-right: 1.35rem;
         letter-spacing: 0.5px;
       }
+    }
+  }
+  .search-icon{
+    color: $black;
+    font-size: .85rem;
+    font-weight: 700;
+    padding: 0 2rem;
+    &:hover{
+      text-decoration: none;
     }
   }
 }

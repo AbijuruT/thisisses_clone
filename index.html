@@ -18,17 +18,19 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-dark p-5">
-        <form action="#" class="search-box">
-            <input type="text" placeholder="Type Something to Search..." required>
-            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
-        </form>
+    <div class="container-fluid d-none">
+        <div class="search__form">
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to Search..." required>
+                <button type="submit" class="go-icon"><i class="bx bx-search"></i></button>
+            </form>
+        </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark" id="top-navbar">
         <a class="navbar-brand d-flex align-items-center" href="#">
             <img src="./assets/img/logo.png" alt="">
         </a>
-        <button class="navbar-toggler" data-target="#myNav" data-toggle="collapse" aria-controls="myNav"
+        <button class="navbar-toggler order-2" data-target="#myNav" data-toggle="collapse" aria-controls="myNav"
             aria-expanded="false" aria-label="Toggle navigation">
             <i class="bx bx-lg bx-menu-alt-right"></i>
         </button>
@@ -91,7 +93,7 @@
                 </li>
             </ul>
         </div>
-        <a href="" class="order-1"><i class="bx bx-search"></i></a>
+        <a href="" class="order-1 search-icon d-flex align-items-center"><i class="bx bx-search bx-fw"></i></a>
         
     </nav>
     <header id="main-header">

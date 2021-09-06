@@ -48,8 +48,8 @@ img::selection {
 
 #top-navbar .navbar-nav {
   background: #000;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  border-left: 1px solid #ADB5BD;
+  border-right: 1px solid #ADB5BD;
 }
 
 #top-navbar .navbar-nav .nav-item {
@@ -66,6 +66,17 @@ img::selection {
   padding: 0.9rem;
   padding-right: 1.35rem;
   letter-spacing: 0.5px;
+}
+
+#top-navbar .search-icon {
+  color: #000;
+  font-size: .85rem;
+  font-weight: 700;
+  padding: 0 2rem;
+}
+
+#top-navbar .search-icon:hover {
+  text-decoration: none;
 }
 
 /*Dropdown menus*/
@@ -103,6 +114,7 @@ img::selection {
   display: none;
 }
 
+/*search form*/
 /*slider*/
 #main-header img {
   height: 458px;
@@ -170,7 +182,7 @@ img::selection {
     padding: 0.5rem;
   }
   #top-navbar .navbar-brand {
-    padding-left: 1.5rem;
+    padding-left: 1rem;
   }
   #top-navbar .navbar-nav {
     background: #fff;
