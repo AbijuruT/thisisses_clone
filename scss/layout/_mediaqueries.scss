@@ -1,3 +1,4 @@
+/*Madia queries*/
 // < 768px
 @media screen and (max-width: 768px){
 
@@ -17,6 +18,7 @@
 
 //Large (lg) devices (desktops, 992px and up)
 @media screen and (min-width: 992px) {
+  /*navbar*/
   #top-navbar {
     background: $white;
     padding: 0.5rem;
