@@ -47,6 +47,15 @@
         }
       }
     }
+    .search-icon{
+    color: $black;
+    font-size: .85rem;
+    font-weight: 700;
+    padding: 0 2rem;
+    &:hover{
+      text-decoration: none;
+    }
+  }
   }
 }
 
