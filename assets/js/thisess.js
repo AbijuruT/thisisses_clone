@@ -29,3 +29,17 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+// search form toggle on and off
+/*===== EXPANDER MENU  =====*/ 
+const showForm = (toggleId)=>{
+  const toggle = document.getElementById(toggleId),
+    searchForm = document.getElementById('form');
+
+  if(toggle){
+    toggle.addEventListener('click', ()=>{
+      searchForm.classList.toggle("none");
+    })
+  }
+}
+showForm('form-search')
+

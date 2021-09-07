@@ -6,6 +6,7 @@
     height: 100px;
     background: $black;
     padding: .5rem;
+    transition: .5s ease-in-out;
     .search-box{
         display: flex;
         column-gap: 2rem;
@@ -36,4 +37,9 @@
             font-weight: 800;
         }
     }
+}
+/*Js DOM element to toggle on and off this form*/
+.none{
+    transition: .5s ease-in;
+    display: none;
 }
